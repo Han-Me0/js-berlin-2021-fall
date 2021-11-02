@@ -9,7 +9,7 @@ let colorSchemes = {
     },
     colorful: {
         color: "#17183B",
-        backgroundColor: "tomato"
+        backgroundColor: "tomato",
     }
 
 }
@@ -25,5 +25,16 @@ let colorSchemeElement = document.getElementById('color-scheme-name');
  * 
  */
 function changeColorScheme() {
-
+   if (color-scheme-name = "dark") {
+       document.body.style.color === "#dddddd";
+       document.body.style.backgroundColo === "#2E294E";
+}
+   else if (color-scheme-name = "light") {
+       document.body.style.color === "#333333";
+       document.body.style.backgroundColo === "#E8DDB5";
+   }
+    
+    else {
+       document.body.style.color === "#17183B";
+       document.body.style.backgroundColo === "tomato";
 }
